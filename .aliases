@@ -1,0 +1,14 @@
+alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gb="git branch"
+alias gc="git commit"
+alias ga="git add"
+alias gck="git checkout"
+alias gs="git status"
+alias gd="git diff"
+alias sc="php app/console"
+alias into='function _into(){docker exec -it $1 bash;};_into'
+alias fix_symfony="~/scripts/fix-symfony.sh"
+alias dcu="docker-compose start"
+alias dcd="docker-compose stop"
+
+
